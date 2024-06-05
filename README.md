@@ -1,4 +1,4 @@
-**Topic: Dynamic Foot Pressure Image Recognition**
+# Dynamic Foot Pressure Image Recognition
 
 
 
@@ -14,11 +14,11 @@ The dataset was generously provided by Shui-Mu International Co. Ltd. Each sampl
 
 The training set consisted of 1000 samples, while the validation set comprised 424 samples, and the test set encompassed 1000 samples, as illustrated in following figure. 
 
-<img src="dataset.png" alt="dataset" style="zoom: 50%;" />
+<img src="images/dataset.png" alt="dataset" style="zoom: 50%;" />
 
 The images illustrating foot pressure with two red dots, representing the forefoot and heel apexes, are depicted in the following figure.
 
-![foot](foot.png)
+![foot](images/foot.png)
 
 ## Method
 
@@ -40,7 +40,7 @@ Due to the limited availability of training data, with only 1000 samples, we per
 
 We also resized the image width to 299 pixels to match the model input size. First, we converted the image to a tensor and normalized it with mean values of [0.485, 0.456, 0.406] and standard deviation values of [0.229, 0.224, 0.225] for the RGB channels, as specified in the original paper[1]. The results are shown in the following image.
 
-![image-20240605161015510](C:/Users/Tsz-Yeung Lau/AppData/Roaming/Typora/typora-user-images/image-20240605161015510.png)
+![img](images/aug_img.png)
 
 
 
@@ -62,7 +62,7 @@ We trained the model with the following hyperparameters:
 
 The model performed well enough after approximately 250 epochs.
 
-![image-20240605162807756](C:/Users/Tsz-Yeung Lau/AppData/Roaming/Typora/typora-user-images/image-20240605162807756.png)
+![img](images/loss.png)
 
 
 
@@ -70,7 +70,7 @@ The model performed well enough after approximately 250 epochs.
 
 Our model's predictions achieved a Euclidean distance error of 10.273243, achieved rank 10 on the AIdea leader board.
 
-![image-20240605164019388](C:/Users/Tsz-Yeung Lau/AppData/Roaming/Typora/typora-user-images/image-20240605164019388.png)
+![img](images/res.png)
 
 
 
