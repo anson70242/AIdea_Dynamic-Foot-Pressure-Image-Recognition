@@ -1,9 +1,3 @@
-#### 10927116 劉子揚
-
-
-
-# Deep Learning Final Project
-
 **Topic: Dynamic Foot Pressure Image Recognition**
 
 
