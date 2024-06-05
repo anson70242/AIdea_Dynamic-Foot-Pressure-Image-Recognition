@@ -1,0 +1,1 @@
+# AIdea_Dynamic-Foot-Pressure-Image-Recognition
