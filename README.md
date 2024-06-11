@@ -72,7 +72,9 @@ Our model's predictions achieved a Euclidean distance error of 10.273243, achiev
 
 ![img](images/res.png)
 
+Here are the predictions.
 
+![img](images/output.png)
 
 ## Appendix
 
