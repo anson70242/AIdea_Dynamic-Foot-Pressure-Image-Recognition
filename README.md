@@ -72,17 +72,10 @@ Our model's predictions achieved a Euclidean distance error of 10.273243, achiev
 
 ![img](images/res.png)
 
-Here are the predictions.
+Here are the predictions:
 
 ![img](images/output.png)
-
-## Appendix
-
-The code is available on GitHub. [Link: [AIdea_Dynamic-Foot-Pressure-Image-Recognition](https://github.com/anson70242/AIdea_Dynamic-Foot-Pressure-Image-Recognition)]
-
-
 
 ## References
 
 [1] Szegedy, C., Vanhoucke, V., Ioffe, S., Shlens, J., & Wojna, Z. (2015, December 2). *Rethinking the inception architecture for computer vision*. arXiv.org. https://arxiv.org/abs/1512.00567
-
