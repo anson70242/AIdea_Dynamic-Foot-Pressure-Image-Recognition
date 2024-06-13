@@ -1,4 +1,4 @@
-# Dynamic Foot Pressure Image Recognition
+# Dynamic Foot Pressure Image Recognition (動態足壓影像辨識)
 
 
 
