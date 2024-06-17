@@ -18,7 +18,7 @@ The training set consisted of 1000 samples, while the validation set comprised 4
 
 The images illustrating foot pressure with two red dots, representing the forefoot and heel apexes, are depicted in the following figure.
 
-![foot](images/foot_1.png)
+![foot](images/foot.png)
 
 ## Method
 
