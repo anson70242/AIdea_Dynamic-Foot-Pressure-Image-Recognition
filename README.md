@@ -72,7 +72,7 @@ Our model's predictions achieved a Euclidean distance error of 10.273243, achiev
 
 ![img](images/res.png)
 
-Here are the predictions:
+Here are the predictions(red dots):
 
 ![img](images/output.png)
 
